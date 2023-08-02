@@ -1,0 +1,71 @@
+.announcements {
+    margin-top: 20px;
+    
+  }
+  
+  .announcement {
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f7f9fa;
+  }
+  
+  .announcement p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1c1e21;
+  }
+  /* Announcements.css */
+.announcements {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.announcement {
+  margin-bottom: 20px;
+}
+
+.announcement-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.announcement-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.announcement-person-name {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.announcement-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.announcement-interactions {
+  display: flex;
+  align-items: center;
+}
+
+.announcement-interactions button {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #666;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.announcement-interactions button:last-child {
+  margin-right: 0;
+}

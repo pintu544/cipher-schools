@@ -1,0 +1,35 @@
+.left-section {
+    background-color: #f7f9fa;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-links a {
+    color: #1da1f2;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  

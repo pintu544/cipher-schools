@@ -1,0 +1,38 @@
+.posts {
+    margin-top: $margin-large;
+  }
+  
+  .post {
+    border: 1px solid $gray-color;
+    border-radius: 8px;
+    padding: $padding-medium;
+    margin-bottom: $margin-medium;
+    background-color: $background-color;
+  }
+  
+  .post p {
+    font-size: $font-size-medium;
+    line-height: 1.5;
+    color: $text-color;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: $margin-medium;
+  }
+  
+  .pagination button {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 4px;
+    padding: $padding-small $padding-medium;
+    margin-right: $margin-small;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: $primary-color;
+  }
+  

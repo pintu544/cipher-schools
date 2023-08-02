@@ -1,0 +1,32 @@
+.joined-users {
+    margin-top: 20px;
+  }
+  
+  .joined-users h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .joined-users ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .joined-users li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .joined-users li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .joined-users li span {
+    font-size: 16px;
+  }
+  

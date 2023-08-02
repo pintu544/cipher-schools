@@ -1,0 +1,70 @@
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-right: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  float: right;
+  
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+  
+}
+  
+  /* Logo.css */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    float: right;
+  }
+  
+  /* CommunityPosts.css */
+  .community-posts {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Notifications.css */
+  .notifications {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* UserIcon.css */
+  .user-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+
+  /* App.css */
+
+  
+  

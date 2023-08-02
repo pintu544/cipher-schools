@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  flex: 1;
+  margin: 10px;
+}
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .left-section, .middle-section, .right-section {
+    width: 100%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .left-section, .middle-section, .right-section {
+    width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .left-section {
+    width: 30%;
+  }
+
+  .middle-section {
+    width: 40%;
+  }
+
+  .right-section {
+    width: 30%;
+  }
+}
+
+/* Additional responsive styles for other components */
+/* Define CSS variables for light theme */
+:root {
+  --bg-color: #f7f9fa;
+  --text-color: #1c1e21;
+}
+
+/* Define CSS variables for dark theme */
+.dark {
+  --bg-color: #1c1c1c;
+  --text-color: #ffffff;
+}
+
+/* Apply the theme-specific colors */
+.app {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Additional styling for other components and sections */
+
+.top-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+/* Add your existing styles for other sections here */
+/* App.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1da1f2;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: 5%;
+}
+
+.toggle-container button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-container button:hover {
+  background-color: #0d8bc5;
+}
+.toggle-buttons {
+  
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 14px;
+ 
+  
+}
+/* App.css */
+.toggle-button.active {
+  background-color: #000;
+  cursor: default;
+}
+
+.toggle-button:hover {
+  background-color: #0d8bc5;
+}
+
+.toggle-button.active {
+  background-color: #000;
+  cursor: default;
+}
+
+
+.header button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.content-sections {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.middle-section {
+  /* Your middle section styles */
+  flex: 1;
+  margin-right: 60px;
+}
+
+.right-section {
+  /* Your right section styles */
+  flex: 1;
+}

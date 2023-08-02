@@ -1,0 +1,35 @@
+.follow-section {
+    margin-top: 20px;
+  }
+  
+  .followers,
+  .following {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .followers h3,
+  .following h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .followers ul,
+  .following ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .followers li,
+  .following li {
+    margin-right: 10px;
+  }
+  
+  .followers img,
+  .following img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,25 @@
+body {
+    font-size: $font-size-medium;
+    color: $text-color;
+    background-color: $background-color;
+  }
+  
+  .top-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: $padding-small;
+    background-color: $secondary-color;
+  }
+  
+  .toggle-button {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: none;
+    border-radius: 4px;
+    padding: $padding-small $padding-medium;
+    cursor: pointer;
+    font-size: $font-size-small;
+    margin-right: $margin-small;
+  }
+  

@@ -1,0 +1,48 @@
+.middle-section {
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+
+  
+  .posts,
+  .announcements {
+    flex-basis: 48%;
+    background-color: #f7f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .posts p,
+  .announcements p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1c1e21;
+  }
+
+  .posts-container,
+  .announcements-container {
+    flex-basis: 48%;
+    background-color: #f7f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  
+  @media (max-width: 767px) {
+    .middle-section {
+      flex-direction: column;
+    }
+  
+    .posts-container,
+    .announcements-container {
+      flex-basis: 100%;
+    }
+  }
+  
+  
