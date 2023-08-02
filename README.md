@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome file</title>
+  
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><p>Sure! Below is a template for the <a href="http://README.md">README.md</a> file for the Plutonn’s community page frontend assignment:</p>
+  <div class="stackedit__html">
 <h1 id="plutonn-community-page---frontend-assignment">Plutonn Community Page - Frontend Assignment</h1>
 <p>This project is a responsive community page for Plutonn, divided into three main sections - Left Section, Middle Section, and Right Section. The user interface is built using ReactJS and TypeScript for the client-side code and CSS/SCSS for styling and responsiveness.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
